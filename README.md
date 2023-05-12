@@ -23,7 +23,13 @@ requirements
 
 데이터는 특정 대회 사이트를 사용했으므로 데이터를 다운로드 받아 사용해야함 <br/>
 이후 모델 돌리기 전 데이터 경로를 바꾼 후에 RUN 시키면 돌아감 <br/>
-데이터 경로: https://dacon.io/competitions/official/236082/overview/description
+데이터 경로: https://dacon.io/competitions/official/236082/overview/description 
+
+---
+
+모델의 디테일은 psudocode에서 별 두개로 표시됨 <br/>
+ViT 모델의 도식도대로 진행 <br/>
+단, transfer learning은 진행하지 않음 <br/>
 
 ---
 
@@ -33,10 +39,10 @@ pseudocode
 2. Data load
 3. Figure hyperparameters
 4. Data augmentation
-5. Implement Multi-Layer Perceptron (MLP)
+5. Implement Multi-Layer Perceptron (MLP)**
 6. Implement Patch creation as a Layer
 7. Implement the patch Encoding Later
-8. Build ViT Model
+8. Build ViT Model**
 9. Compile, Train, Evaluate the Model
 10. Predict
 
