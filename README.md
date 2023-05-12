@@ -22,7 +22,7 @@ requirements
 ---
 
 데이터는 특정 대회 사이트를 사용했으므로 데이터를 다운로드 받아 사용해야함 <br/>
-이후 모델 돌리기 전 데이터 경로를 바꾼 후에 RUN 시키면 돌아감 <br/>
+이후 모델 돌리기 전 데이터 경로를 바꾼 후에 Vision-Transformer.ipynb 파일을 실행시키면 돌아감 <br/>
 데이터 경로: https://dacon.io/competitions/official/236082/overview/description 
 
 ---
