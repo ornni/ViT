@@ -17,6 +17,13 @@ requirements
 
 - Tensorflow version: 2.8.0
 - Python version: 3.10.7
+- library: Numpy, Pandas, tqdm, os, glob, datetime, PIL, matplotlib, warnings, tensorflow, tensorflow_addons, keras
+
+---
+
+데이터는 특정 대회 사이트를 사용했으므로 데이터를 다운로드 받아 사용해야함
+이후 모델 돌리기 전 데이터 경로를 바꾼 후에 RUN 시키면 돌아감
+데이터 경로: 
 
 ---
 
