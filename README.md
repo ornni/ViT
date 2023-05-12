@@ -9,7 +9,7 @@
 -	그러나 큰 사이즈의 데이터셋에서 학습 시킬 경우, 위의 구조적 한계(lack of inductive bias)를 극복 가능함
 -	ViT는 충분한 크기의 데이터셋에서 사전학습 후, 보다 적은 데이터셋을 가진 task에 transfer learning 시킬 때 좋은 성능을 보임
 - model architecture
-
+![ViT](https://github.com/ornni/Classification/blob/main/SVM/image/SVM_2-1.png?raw=true)
 
 ---
 
