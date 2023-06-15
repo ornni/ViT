@@ -33,16 +33,31 @@ ViT 모델의 도식도대로 진행 <br/>
 
 ---
 
+revision
+
+- 정확도를 높이고 일반화 성능을 높이기 위한 방법을 다양히 적용해본다.
+- image의 width와 height 변경
+- mlp 레이어 추가
+- data augmentation 추가
+- parameter 변경 (dropout, tran_test_split, validation_split, epoch)
+
+---
+
 pseudocode
 
 1. Import library
 2. Data load
 3. Figure hyperparameters
+- image의 width와 height 변경
+- parameter 변경 (dropout, tran_test_split, validation_split, epoch)
 4. Data augmentation
+- contrast, translation, rotation 추가
 5. Implement Multi-Layer Perceptron (MLP)**
-6. Implement Patch creation as a Layer
-7. Implement the patch Encoding Later
-8. Build ViT Model**
-9. Compile, Train, Evaluate the Model
-10. Predict
-
+- layer 추가
+7. Implement Patch creation as a Layer
+9. Implement the patch Encoding Later
+10. Build ViT Model**
+11. Compile, Train, Evaluate the Model
+12. Predict
+- test accuracy는 39.6%로같음
+- test top 5 accuracy가 70.38%에서 77.94%로 증가
